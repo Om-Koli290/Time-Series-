@@ -2,18 +2,6 @@
 
 This project performs **time series forecasting** and **volatility modeling** on Apple's stock data. It uses ARIMA to forecast log returns and GARCH to model volatility, and includes evaluation metrics and residual diagnostics.
 
----
-
-## 📂 Project Structure
-
-.
-├── main.py # Main execution script
-├── Data_Loader.py # Download & process AAPL price and log returns
-├── ARIMA.py # ARIMA modeling, forecasting, and plotting
-├── GARCH.py # GARCH(1,1) model for volatility forecasting
-├── Evaluation.py # Forecast evaluation metrics and comparison
-├── Residual_Analysis.py # Plots, ACF, and Ljung-Box residual tests
-
 
 ---
 
